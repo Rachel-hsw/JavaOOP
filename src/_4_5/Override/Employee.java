@@ -1,4 +1,4 @@
-package param;
+package _4_5.Override;
 
 public class Employee {
 private String name;
@@ -19,6 +19,8 @@ public double getSalary() {
 public double getMonthlyIncome(double salary) {
 	return salary;
 }
-
+public void  test (){
+System.out.println("这是弗雷德方法");
+}
 
 }

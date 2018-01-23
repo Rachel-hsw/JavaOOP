@@ -1,4 +1,4 @@
-package param;
+package _4_5.Override;
 
 public class Manager extends Employee {
 private double bonus=1500.0;
@@ -13,8 +13,10 @@ public void setBonus(double bonus) {
 
 public Manager() {
 }
-
-
+@Override
+public void  test (){
+System.out.println("这是子类德方法");
+}
 
 
 }
